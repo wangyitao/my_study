@@ -1,0 +1,161 @@
+:root
+{
+    --font-size-normal:              19px;
+    --font-size-code:                16px;
+    --font-size-side-dock:           16px;
+    --font-size-side-dock-title:     18px;
+    --font-size-status-bar:          16px;
+    --font-size-h1:                  24px;
+    --font-size-h2:                  23px;
+    --font-size-h3:                  22px;
+    --font-size-h4:                  21px;
+    --font-size-h5:                  20px;
+    --font-size-h6:                  19px;
+    --font-family-editor:            "华康手札体W5P", Avenir, Avenir Next, sans-serif;
+    --font-family-preview:           "华康手札体W5P", Avenir, Avenir Next, sans-serif;
+} 
+
+/**************************************/
+/*            basic format            */
+/*              基本格式              */
+/**************************************/
+
+/* font for everything outside of editor/preview panes */
+.app-container {
+  font-family: var(--font-family-preview);
+}
+
+/* set the text selection color for preview mode *//*选中文本*/
+::selection {
+  background-color: var(--text-selection);
+} 
+
+/* normal text outside of headings and code of editor *//*正文编辑*/
+.cm-s-obsidian, .mod-single-child .cm-s-obsidian {
+  font-family: var(--font-family-editor);
+  font-size: var(--font-size-normal);
+  word-spacing: 2.5px; /*调整英文单词之间的间距*/
+}
+
+/* normal text outside of headings and code of preview *//*正文预览*/
+.markdown-preview-view, .mod-single-child .markdown-preview-view {
+  font-family: var(--font-family-editor);
+  font-size: var(--font-size-normal);
+  padding-top: 0px;
+  padding-left: 2% !important;
+  padding-right: 1% !important;
+  word-spacing: 1px;/*调整英文单词之间的间距*/
+  padding-bottom: 0px;
+}
+
+/* bold in preview and editor *//*粗体*/
+strong, .cm-strong {
+  font-weight: 600;
+  color: #50fa7b;
+}
+
+/* emphasis in preview and editor *//*强调*/
+em, .cm-em {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* strikethrough in preview and editor *//*删除*/
+s, .cm-strikethrough {
+  color: var(--text-muted);
+}
+
+/* list in editor *//*列表*/
+.cm-s-obsidian span.cm-formatting-list {
+  color: var(--text-normal) !important;
+}
+
+/* horizontal line in preview *//*分隔线*/
+.markdown-preview-view hr {
+  background-color: var(--text-faint) !important;
+}
+
+/* embedded images *//*嵌入图片*/
+img:not(.emoji) {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* img hover zoom out img*/
+img:hover {
+  transform: scale(1.04);
+  transition: transform 0.25s ease-in-out 0s;
+}
+
+.community-theme img:hover{
+  transform: none;
+}
+
+/*-------------------------------------*/
+/*          link popup preview         */
+/*               超链接弹窗             */
+/*-------------------------------------*/
+.popover.hover-popover {
+    transform: scale(0.95); /* makes the content smaller */
+    max-height: 1000px;    /* was 300 */
+    min-height: 300px;
+    width: 1000px;     /* was 400 */
+    background-color: #44475a;
+    border-color: #282a36;
+    border-radius: 10px;
+  }
+
+  .markdown-source-view.is-readable-line-width .CodeMirror {
+    max-width: 2000px;/*900px*/
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    .markdown-preview-view.is-readable-line-width .markdown-preview-section {
+    max-width: 2000px;/*900px*/
+    margin-left: 30px;
+    margin-right: 30px;
+    }
+
+/*-------------------------------------*/
+/*          image position             */
+/*            图片位置字段              */
+/*-------------------------------------*/
+  img[alt$="left"],
+  img[alt$="Left"],
+  img[alt$="LEFT"],
+  img[alt="L"] {
+    margin-left: 0;
+  }
+
+  img[alt$="right"],
+  img[alt$="Right"],
+  img[alt$="RIGHT"],
+  img[alt="R"] {
+    margin-right: 0;
+  }
+
+  img[alt$="inline"],
+  img[alt$="Inline"],
+  img[alt$="INLINE"],
+  img[alt$="inl"] {
+    display: inline !important;
+    padding: 0.2em 0.5em !important;
+    vertical-align: bottom;
+  }
+
+  img[alt$="inlineL"],
+  img[alt$="InlineL"],
+  img[alt$="INLINEL"],
+  img[alt$="inlL"] {
+    float: left;
+    padding: 0 1em 0.5em 0 !important;
+  }
+
+  img[alt$="inlineR"],
+  img[alt$="InlineR"],
+  img[alt$="INLINER"],
+  img[alt$="inlR"] {
+    float: right;
+    padding: 0 0 0.5em 1em !important;
+  }

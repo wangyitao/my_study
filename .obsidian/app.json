@@ -1,0 +1,23 @@
+{
+  "foldHeading": true,
+  "strictLineBreaks": true,
+  "spellcheck": true,
+  "foldIndent": true,
+  "defaultViewMode": "source",
+  "spellcheckDictionary": [
+    "Scientech",
+    "OpenFOAM",
+    "Alog",
+    "scientech",
+    "Mindself",
+    "Artpatch",
+    "inprogress"
+  ],
+  "showFrontmatter": false,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "_attachment",
+  "legacyEditor": false,
+  "livePreview": true,
+  "readableLineLength": true,
+  "communityPluginSortOrder": "download"
+}

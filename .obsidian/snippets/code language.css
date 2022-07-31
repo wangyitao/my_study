@@ -1,0 +1,100 @@
+/*show language type in preview mode*/ 
+/*Thanks to elutao from https://snippets.cacher.io/snippet/018387c872dc39277996 */
+pre::before{
+  font-family: var(--default-font);
+  color: #95a3b5;
+  opacity: 1;
+  font-size: 0.85em;
+  font-weight: 600;
+  position: absolute;
+  right: 55px;
+  top: 6px;
+}
+ 
+pre {
+  position: relative;
+}
+ 
+pre[class~='language-c']::before {
+  content: "C";
+}
+ 
+pre[class~='language-python']::before {
+  content: "PYTHON";
+}
+ 
+pre[class~='language-nginx']::before {
+  content: "NGINX";
+}
+ 
+pre[class~='language-css']::before {
+  content: "CSS";
+}
+ 
+pre[class~='language-javascript']::before {
+  content: "JS";
+}
+ 
+pre[class~='language-js']::before {
+  content: "JS";
+}
+ 
+pre[class~='language-php']::before {
+  content: "PHP";
+}
+ 
+pre[class~='language-shell']::before {
+  content: "SHELL";
+}
+ 
+pre[class~='language-flow']::before {
+  content: "FLOW";
+}
+ 
+pre[class~='language-sequence']::before {
+  content: "SEQUENCE";
+}
+ 
+pre[class~='language-sql']::before {
+  content: "SQL";
+}
+ 
+pre[class~='language-yaml']::before {
+  content: "YAML";
+}
+ 
+pre[class~='language-ini']::before {
+  content: "INI";
+}
+ 
+pre[class~='language-xml']::before {
+  content: "XML";
+}
+ 
+pre[class~='language-git']::before {
+  content: "GIT";
+}
+ 
+pre[class~='language-cs']::before {
+  content: "C#";
+}
+ 
+pre[class~='language-cpp']::before {
+  content: "C++";
+}
+ 
+pre[class~='language-java']::before {
+  content: "JAVA";
+}
+ 
+pre[class~='language-html']::before {
+  content: "HTML";
+}
+ 
+pre[class~='language-txt']::before {
+  content: "TXT";
+}
+
+pre[class~='language-r']::before {
+  content: "R";
+}

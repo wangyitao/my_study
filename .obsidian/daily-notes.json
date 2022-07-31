@@ -1,0 +1,6 @@
+{
+  "format": "YYYY-MM-DD-dddd",
+  "folder": "work_tasks",
+  "template": "_template/workTemplate",
+  "autorun": true
+}

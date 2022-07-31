@@ -1,0 +1,461 @@
+{
+  "workspaces": {
+    "dd": {
+      "main": {
+        "id": "1166a9f8415d6028",
+        "type": "split",
+        "children": [
+          {
+            "id": "913b26c43c5ddceb",
+            "type": "split",
+            "children": [
+              {
+                "id": "94af60a843c7369f",
+                "type": "leaf",
+                "dimension": 76.19731800766283,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "work_tasks/2022-07-31-星期日.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "da724fe298b50a5b",
+                "type": "leaf",
+                "dimension": 23.80268199233716,
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "Flash.md"
+                  }
+                }
+              }
+            ],
+            "direction": "horizontal"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "6ae4c56591c385dc",
+        "type": "split",
+        "children": [
+          {
+            "id": "22632b1fde799b64",
+            "type": "tabs",
+            "dimension": 55.603448275862064,
+            "children": [
+              {
+                "id": "31b7c53f819ea7a1",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "5736ae80d357136e",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "478a5440d05295a2",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "bee780521c102e6f",
+            "type": "tabs",
+            "dimension": 44.396551724137936,
+            "children": [
+              {
+                "id": "9d1d304e032f1208",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 288
+      },
+      "right": {
+        "id": "1252bd88c6ea948e",
+        "type": "split",
+        "children": [
+          {
+            "id": "5a59af1c3d9d6679",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c6dac724220aecda",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "d071f0043d00c124",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "e47df55733848f96",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "076c54d11a13bdcb",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "work_tasks/2022-07-31-星期日.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1.0534979423868314,
+                      "close": true
+                    }
+                  }
+                }
+              },
+              {
+                "id": "f21dba099b881b5c",
+                "type": "leaf",
+                "state": {
+                  "type": "memos_view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "e391ae6142fc6732",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {}
+                }
+              },
+              {
+                "id": "3c41471879ef2dbc",
+                "type": "leaf",
+                "state": {
+                  "type": "todo",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "e06cd00a2dd13f39",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "48f6145debfa9cc3",
+                "type": "leaf",
+                "state": {
+                  "type": "timeline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "f73f6e6a52888d23",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "work_tasks/2022-07-31-星期日.md"
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 432
+      },
+      "active": "31b7c53f819ea7a1"
+    },
+    "f的": {
+      "main": {
+        "id": "1166a9f8415d6028",
+        "type": "split",
+        "children": [
+          {
+            "id": "913b26c43c5ddceb",
+            "type": "split",
+            "children": [
+              {
+                "id": "94af60a843c7369f",
+                "type": "leaf",
+                "dimension": 76.19731800766284,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "work_tasks/2022-07-31-星期日.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "da724fe298b50a5b",
+                "type": "leaf",
+                "dimension": 23.802681992337163,
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "Flash.md"
+                  }
+                }
+              }
+            ],
+            "direction": "horizontal"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "6ae4c56591c385dc",
+        "type": "split",
+        "children": [
+          {
+            "id": "22632b1fde799b64",
+            "type": "tabs",
+            "dimension": 55.603448275862064,
+            "children": [
+              {
+                "id": "31b7c53f819ea7a1",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "5736ae80d357136e",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "478a5440d05295a2",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "bee780521c102e6f",
+            "type": "tabs",
+            "dimension": 44.396551724137936,
+            "children": [
+              {
+                "id": "9d1d304e032f1208",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 288
+      },
+      "right": {
+        "id": "1252bd88c6ea948e",
+        "type": "split",
+        "children": [
+          {
+            "id": "5a59af1c3d9d6679",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c6dac724220aecda",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "d071f0043d00c124",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "e47df55733848f96",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "076c54d11a13bdcb",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "work_tasks/2022-07-31-星期日.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1.0534979423868314,
+                      "close": true
+                    }
+                  }
+                }
+              },
+              {
+                "id": "f21dba099b881b5c",
+                "type": "leaf",
+                "state": {
+                  "type": "memos_view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "e391ae6142fc6732",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {}
+                }
+              },
+              {
+                "id": "3c41471879ef2dbc",
+                "type": "leaf",
+                "state": {
+                  "type": "todo",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "e06cd00a2dd13f39",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "48f6145debfa9cc3",
+                "type": "leaf",
+                "state": {
+                  "type": "timeline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "f73f6e6a52888d23",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "work_tasks/2022-07-31-星期日.md"
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 432
+      },
+      "active": "31b7c53f819ea7a1"
+    }
+  },
+  "active": "f的"
+}

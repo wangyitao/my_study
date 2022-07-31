@@ -1,0 +1,31 @@
+{
+  "baseFontSize": 18,
+  "cssTheme": "Dracula for Obsidian",
+  "enabledCssSnippets": [
+    "content-udf",
+    "Aerosand basic",
+    "3_Aerosand_tag",
+    "4_Aeorsand_left_sidebar",
+    "5_Aerosand colorful headers",
+    "1_Aerosand_scales",
+    "2_Aerosand_color_dark",
+    "7_Aerosand_code",
+    "3_Aerosand_main",
+    "8_Aerosand_kanban",
+    "6_Aerosand_checkbox_more",
+    "6_Aerosand_checkbox",
+    "9_Aerosand_checklist",
+    "9_Aerosand_others",
+    "left_sidebar",
+    "Aerosand",
+    "rainbow list for live preview",
+    "Aerosand_tag",
+    "Aerosand_code",
+    "metatable",
+    "Aerosand main",
+    "Aerosand tag",
+    "content width",
+    "code language"
+  ],
+  "theme": "obsidian"
+}

@@ -1,0 +1,86 @@
+/*reduce space of header buttons*/
+div.nav-header {
+    padding: 0px 5px 5px 5px;
+    margin-bottom: -5px;
+    margin-top: 3px;
+    line-height: 1;
+  }
+  
+  div.nav-buttons-container {
+    margin: 1px;
+  }
+  
+  .workspace-leaf-content[data-type='file-explorer'] .nav-buttons-container {
+    margin: 2px 0 4px 0;
+  }
+  
+  input.search-input {
+    margin: -2px 0px -3px 0px;
+  }
+  
+  .nav-action-button {
+    margin: 0px 5px 0px 5px !important;
+  }
+  
+  .workspace-leaf-content[data-type='search'] .nav-action-button,
+  .workspace-leaf-content[data-type='backlink'] .nav-action-button{
+    padding: 5px 4px 2px;
+  }
+  
+  .workspace-leaf-content[data-type='file-explorer'] .nav-action-button {
+    padding: 10px 4px 2px;
+  }
+
+/*tag page button*/
+.nav-buttons-container > .nav-action-button,
+.nav-buttons-container > .nav-action-button.is-active {
+  padding: 5px 4px 2px;
+}
+
+.titlebar-text {
+  flex-grow: 1;
+  margin-right: 20px;
+  font-size: var( --font-size-obsidian-titlebar);
+  font-family: "Lucida Handwriting";
+  text-align: center;
+  letter-spacing: 0.05em;
+  opacity: 1;
+  color: var(--text-accent);
+  margin-top: -1px;
+}
+
+.side-dock-ribbon-action{
+  padding: 7px 0 2px 0;
+}
+
+.side-dock-ribbon-tab:hover,
+.side-dock-ribbon-action:hover {
+  color: var(--theme-color);
+}
+
+.side-dock-settings {
+  margin-top: auto;
+  margin-bottom: 2px;
+}
+
+.nav-folder.mod-root > .nav-folder-title {
+  padding-left: 2px;
+  font-size: 24px;
+  font-family: "Lucida Handwriting";/*库名称字体*/
+  font-weight: bolder;
+  text-shadow: 1px 1px 6px var(--theme-color-translucent);
+  cursor: default;
+  z-index: 900;
+}
+
+.theme-dark .nav-folder.mod-root > .nav-folder-title {
+  color: #ff79c6;/*库名称颜色*/
+  text-shadow: none;
+}
+
+.theme-light .nav-folder.mod-root > .nav-folder-title:hover {
+  background-color: var(--background-secondary-alt);
+  text-shadow: 1px 1px 5px #ffffff7c;
+  color: var(--theme-color);
+  opacity: 1;
+}

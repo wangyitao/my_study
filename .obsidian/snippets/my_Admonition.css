@@ -1,0 +1,14 @@
+/* 
+
+负责Admonition样式：
+    1. 修改边框弧度
+*/
+
+:root{
+    --admonition-border-radius: 1rem;
+}
+
+.admonition {
+    border-radius: var(--admonition-border-radius) !important;
+}
+

@@ -1,0 +1,7 @@
+{
+  "deleteOption": ".trash",
+  "logsModal": true,
+  "excludedFolders": "_banner",
+  "ribbonIcon": true,
+  "excludeSubfolders": false
+}

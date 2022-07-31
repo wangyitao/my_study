@@ -1,0 +1,17 @@
+{
+  "expansionMode": "expanded",
+  "ignoreNulls": false,
+  "nullValue": "",
+  "skipKey": "metatable",
+  "ignoredKeys": [],
+  "filterKeys": [
+    "metatable",
+    "frontmatter",
+    "banner",
+    "banner_x",
+    "banner_y"
+  ],
+  "filterMode": "ignore",
+  "autolinks": true,
+  "vault": null
+}

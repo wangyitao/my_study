@@ -1,0 +1,37 @@
+/*-------------------------------------*/
+/*          metatable plugin           */
+/*              文件头数据              */
+/*-------------------------------------*/
+.theme-dark .obsidian-metatable {
+    --metatable-background:var(--font-family-preview);
+    --metatable-link-color-hover:var(--text-accent-hover);
+    --metatable-link-color:var(--text-accent);
+    --metatable-key-background:var(--background-secondary);
+    --metatable-key-border-color: snow;
+    --metatable-foreground: snow;
+    --metatable-value-background:var(--background-primary);
+    --metatable-collapsed-symbol: "▶︎";
+    --metatable-expanded-symbol: "🎈";
+    --metatable-tag-symbol: "#";
+    --metatable-font-family:var(--font-family-editor);
+    --metatable-key-border-color-focus:var(--text-accent-hover);
+    /*--metatable-external-link-icon:"🚩";*/
+    /*--metatable-internal-link-icon:🚩;*/
+  }
+  /*links*/
+  .obsidian-metatable::part(link) {
+    text-decoration: true;
+  }
+  .obsidian-metatable::part(external-link) {
+    font-weight: 700;
+  }
+  
+  /*keys and values*/
+  .obsidian-metatable::part(value) {
+    overflow: hidden;
+  }
+  .obsidian-metatable::part(key) {
+    border-radius: 0.8rem;
+    border-right: none;
+    padding-left: 1rem;
+  }

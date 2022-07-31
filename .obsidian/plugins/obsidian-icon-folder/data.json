@@ -1,0 +1,33 @@
+{
+  "settings": {
+    "enableRemixiconsLine": true,
+    "enableRemixiconsFill": true,
+    "enableFontawesomeFill": true,
+    "enableFontawesomeLine": true,
+    "enableFontawesomeBrands": true,
+    "fontSize": 16,
+    "iconColor": null,
+    "extraPadding": {
+      "top": 2,
+      "right": 2,
+      "bottom": 2,
+      "left": 2
+    }
+  },
+  "Flash.md": "RiLightbulbFlashLine",
+  "Data2022/1_Alog.md": "RiSunFill",
+  "Data2022/2_Research.md": "RiReactjsFill",
+  "Data2022/3_Scientech.md": "RiRocketLine",
+  "Data2022/4_Book.md": "RiBookMarkLine",
+  "Data2022/5_Paper.md": "RiFilePaper2Line",
+  "Data2022/6_Lab.md": "RiGroupLine",
+  "Data2022/7_Read.md": "RiBookOpenLine",
+  "Data2022/8_View.md": "RiFilmLine",
+  "Data2022/9_Artpatch.md": "RiLeafLine",
+  "MD.md": "RiMarkdownLine",
+  "TeXPage.md": "RiQuillPenLine",
+  "ztool/Ins Fonts.md": "RiInstagramLine",
+  "ztool/时光序.md": "RiDashboardFill",
+  "ztool/Digram.md": "FaProjectDiagramFill",
+  "Notion.md": "RiNpmjsLine"
+}

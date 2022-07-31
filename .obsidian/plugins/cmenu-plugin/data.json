@@ -1,0 +1,120 @@
+{
+  "aestheticStyle": "glass",
+  "menuCommands": [
+    {
+      "id": "quickadd:choice:7c81bfff-da9f-43aa-8e42-e3d9c8d5392d",
+      "name": "QuickAdd: book",
+      "icon": "remix-BookMarkLine"
+    },
+    {
+      "id": "quickadd:choice:8124c8e0-b72d-40bb-a7d1-57fbd4f58498",
+      "name": "QuickAdd: flash",
+      "icon": "remix-LightbulbFlashLine"
+    },
+    {
+      "id": "daily-notes",
+      "name": "Daily notes: Open today's daily note",
+      "icon": "calendar-glyph"
+    },
+    {
+      "id": "cmenu-plugin:subscript",
+      "name": "cMenu: Toggle subscript",
+      "icon": "subscript-glyph"
+    },
+    {
+      "id": "cmenu-plugin:superscript",
+      "name": "cMenu: Toggle superscript",
+      "icon": "superscript-glyph"
+    },
+    {
+      "id": "cmenu-plugin:editor:toggle-strikethrough",
+      "name": "cMenu: Toggle strikethrough",
+      "icon": "strikethrough-glyph"
+    },
+    {
+      "id": "cmenu-plugin:codeblock",
+      "name": "cMenu: Toggle codeblock",
+      "icon": "codeblock-glyph"
+    },
+    {
+      "id": "obsidian-mind-map:app:markmap-preview",
+      "name": "Mind Map: Preview the current note as a Mind Map",
+      "hotkeys": [],
+      "icon": "split"
+    },
+    {
+      "id": "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed",
+      "name": "Excalidraw: Create a new drawing - IN A NEW PANE - and embed into active document",
+      "icon": "remix-BrushLine"
+    },
+    {
+      "id": "obsidian-tasks-plugin:edit-task",
+      "name": "Tasks: Create or edit task",
+      "icon": "pencil"
+    },
+    {
+      "id": "obsidian-reminder-plugin:show-date-chooser",
+      "name": "Reminder: Show calendar popup",
+      "icon": "calendar-with-checkmark",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Meta",
+            "Shift"
+          ],
+          "key": "2"
+        }
+      ]
+    },
+    {
+      "id": "obsidian-emoji-toolbar:emoji-picker:open-picker",
+      "name": "Emoji Toolbar: Open emoji picker",
+      "hotkeys": [],
+      "icon": "remix-EmotionLine"
+    },
+    {
+      "id": "app:go-back",
+      "name": "Navigate back",
+      "icon": "left-arrow-with-tail",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Mod",
+            "Alt"
+          ],
+          "key": "ArrowLeft"
+        }
+      ]
+    },
+    {
+      "id": "app:go-forward",
+      "name": "Navigate forward",
+      "icon": "right-arrow-with-tail",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Mod",
+            "Alt"
+          ],
+          "key": "ArrowRight"
+        }
+      ]
+    },
+    {
+      "id": "obsidian-day-planner:app:show-day-planner-timeline",
+      "name": "Day Planner: Show the Day Planner Timeline",
+      "hotkeys": [],
+      "icon": "remix-TimeLine"
+    },
+    {
+      "id": "obsidian-admonition:insert-callout",
+      "name": "Admonition: Insert Callout",
+      "icon": "remix-BodyScanFill"
+    }
+  ],
+  "appendMethod": "body",
+  "shouldShowMenuOnSelect": false,
+  "cMenuVisibility": true,
+  "cMenuBottomValue": 4,
+  "cMenuNumRows": 12
+}
